@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LtSysMenuComponent } from './lt-sys-menu.component';
+import { MenuPrincipalComponent } from './menu-principal.component';
 
-describe('LtSysMenuComponent', () => {
-  let component: LtSysMenuComponent;
-  let fixture: ComponentFixture<LtSysMenuComponent>;
+describe('MenuPrincipalComponent', () => {
+  let component: MenuPrincipalComponent;
+  let fixture: ComponentFixture<MenuPrincipalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LtSysMenuComponent ]
+      declarations: [ MenuPrincipalComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LtSysMenuComponent);
+    fixture = TestBed.createComponent(MenuPrincipalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

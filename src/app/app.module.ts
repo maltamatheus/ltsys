@@ -11,20 +11,22 @@ import { IconNamesEnum } from 'ngx-bootstrap-icons';
 //Meus imports
 import { HomeComponent } from './pages/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LtSysMenuComponent } from './lt-sys-menu/lt-sys-menu.component';
-import { InteressadosComponent } from './pages/interessados/interessados.component';
+import { MenuPrincipalComponent } from './menu/menu-principal.component';
+import { InteressadosComponent } from './pages/cadastros/interessados/interessados.component';
 import { FormsModule } from '@angular/forms';
 import { MatTableModule } from '@angular/material/table';
 import { HttpClientModule } from '@angular/common/http';
 import { TestesComponent } from './testes/testes.component';
+import { ConsultaInteressadosComponent } from './pages/consultas/consulta-interessados/consulta-interessados.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LtSysMenuComponent,
+    MenuPrincipalComponent,
     InteressadosComponent,
     TestesComponent,
+    ConsultaInteressadosComponent,
   ],
   imports: [
     BrowserModule,
