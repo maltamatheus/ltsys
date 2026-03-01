@@ -16,6 +16,7 @@ import { InteressadosComponent } from './pages/interessados/interessados.compone
 import { FormsModule } from '@angular/forms';
 import { MatTableModule } from '@angular/material/table';
 import { HttpClientModule } from '@angular/common/http';
+import { TestesComponent } from './testes/testes.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     LtSysMenuComponent,
     InteressadosComponent,
+    TestesComponent,
   ],
   imports: [
     BrowserModule,
