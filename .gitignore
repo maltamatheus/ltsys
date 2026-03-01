@@ -42,4 +42,4 @@ testem.log
 Thumbs.db
 
 # Pasta de Testes
-./src/app/testes
+testes/
