@@ -13,7 +13,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuPrincipalComponent } from './menu/menu-principal.component';
 import { InteressadosComponent } from './pages/cadastros/interessados/interessados.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatTableModule } from '@angular/material/table';
 import { HttpClientModule } from '@angular/common/http';
 import { TestesComponent } from './testes/testes.component';
@@ -39,7 +39,8 @@ import { EventosComponent } from './pages/cadastros/eventos/eventos.component';
     FormsModule,
     MatTableModule,
     MatInputModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
