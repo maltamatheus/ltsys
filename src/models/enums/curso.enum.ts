@@ -1,0 +1,10 @@
+export enum EnumCursos{
+  LTI,
+  LTII,
+  PRACTITIONER,
+  MASTER,
+  VENDAS,
+  ENTERPRISE,
+  PROSPERIDADE,
+  AUTO_ESTIMA
+}

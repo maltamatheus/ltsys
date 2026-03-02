@@ -18,6 +18,8 @@ import { MatTableModule } from '@angular/material/table';
 import { HttpClientModule } from '@angular/common/http';
 import { TestesComponent } from './testes/testes.component';
 import { ConsultaInteressadosComponent } from './pages/consultas/consulta-interessados/consulta-interessados.component';
+import { MatInputModule } from '@angular/material/input';
+import { EventosComponent } from './pages/cadastros/eventos/eventos.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { ConsultaInteressadosComponent } from './pages/consultas/consulta-intere
     InteressadosComponent,
     TestesComponent,
     ConsultaInteressadosComponent,
+    EventosComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +38,7 @@ import { ConsultaInteressadosComponent } from './pages/consultas/consulta-intere
     NgxBootstrapIconsModule.pick(allIcons),
     FormsModule,
     MatTableModule,
+    MatInputModule,
     HttpClientModule
   ],
   providers: [],
